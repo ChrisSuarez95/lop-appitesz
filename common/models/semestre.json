@@ -1,0 +1,23 @@
+{
+  "name": "semestre",
+  "plural": "semestres",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idSemestre": {
+      "type": "number",
+      "required": true
+    },
+    "nomSemestre": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

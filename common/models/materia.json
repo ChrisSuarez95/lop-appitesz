@@ -1,0 +1,23 @@
+{
+  "name": "materia",
+  "plural": "materias",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cveMateria": {
+      "type": "string",
+      "required": true
+    },
+    "nomMateria": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

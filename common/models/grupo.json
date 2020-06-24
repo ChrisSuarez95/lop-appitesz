@@ -1,0 +1,23 @@
+{
+  "name": "grupo",
+  "plural": "grupos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idGrupo": {
+      "type": "number",
+      "required": true
+    },
+    "nomGrupo": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
